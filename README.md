@@ -1,152 +1,231 @@
-# Elite SEO Operations Framework v3
+# Elite SEO Operations Framework v4 AI Search Edition
 
-A structured AI-assisted SEO operating system built for scalable content production, governance, local SEO, technical validation, and workflow orchestration.
+A structured AI-assisted SEO operating system for scalable content production, technical governance, local SEO, lifecycle management, and modern AI search visibility.
 
-This framework is not just a prompt collection.
-
-It is designed as a complete SEO workflow engine that controls research, planning, generation, validation, optimization, and long-term content management.
+This framework is not just a prompt collection.  
+It is a complete SEO workflow engine for planning, generating, validating, optimizing, and maintaining content that can perform across traditional search and AI-powered discovery systems.
 
 ---
 
-# Purpose
+## What Changed in v4
 
-The framework helps create:
+Version 4 expands the framework from classic SEO operations into a full **SEO + AEO + GEO + AI Search** system.
+
+It now supports optimization for:
+
+- Traditional Google Search
+- Google AI Overviews
+- Google AI Mode
+- Bing and Copilot-style search
+- ChatGPT Search
+- Perplexity-style answer engines
+- Generative AI citation and retrieval workflows
+
+The major shift in v4 is simple:
+
+> The goal is no longer only to rank.  
+> The goal is to be discoverable, extractable, trustworthy, and citeable.
+
+---
+
+## Purpose
+
+The framework helps teams create:
 
 - Consistent SEO workflows
 - Repeatable content systems
 - Better AI execution control
-- Higher quality outputs
+- Higher quality content outputs
 - Scalable publishing operations
 - Local SEO support
 - Technical SEO governance
-- Long-term content maintenance
+- AI-search-ready content structures
+- Stronger entity and topical authority
+- Long-term content maintenance systems
+- Clear validation before publishing
 
 ---
 
-# Core Philosophy
+## Core Philosophy
 
-The framework follows five principles:
+The framework follows these principles:
 
-1. Process before generation  
-2. Validation before publishing  
-3. Intent before keywords  
-4. Systems before prompts  
-5. Scalability before speed  
+1. Process before generation
+2. Validation before publishing
+3. Intent before keywords
+4. Entities before isolated terms
+5. Evidence before claims
+6. Source eligibility before AI visibility
+7. Systems before prompts
+8. Scalability before speed
 
 ---
 
-# Framework Architecture
+## Framework Architecture
+
+```text
 AI Workflow Kernel
 │
 ├── Intelligence Layer
-│ ├── Intent Analysis
-│ ├── Entity Mapping
-│ ├── SERP Evaluation
-│ └── Competitor Gap Analysis
+│   ├── Search Intent Analysis
+│   ├── Entity Mapping
+│   ├── SERP Evaluation
+│   ├── Competitor Gap Analysis
+│   ├── AI Query Fan-Out Mapping
+│   └── AI Citation Opportunity Review
 │
 ├── Strategy Layer
-│ ├── Structure Planning
-│ ├── Topical Architecture
-│ ├── Internal Linking
-│ └── Content Type Selection
+│   ├── Structure Planning
+│   ├── Topical Architecture
+│   ├── Internal Linking
+│   ├── Content Type Selection
+│   ├── Source Eligibility Planning
+│   └── AI Search Visibility Planning
 │
 ├── Production Layer
-│ ├── Draft Generation
-│ ├── Humanization
-│ ├── Optimization
-│ └── QA Validation
+│   ├── Draft Generation
+│   ├── Answer-First Formatting
+│   ├── Humanization
+│   ├── Semantic Optimization
+│   ├── Evidence Integration
+│   └── QA Validation
 │
 ├── Technical Layer
-│ ├── Schema Validation
-│ ├── Metadata
-│ ├── Indexability
-│ └── Performance Checks
+│   ├── Schema Validation
+│   ├── Metadata
+│   ├── Indexability
+│   ├── Crawlability
+│   ├── Snippet Eligibility
+│   ├── AI Bot Access Review
+│   └── Performance Checks
 │
 └── Lifecycle Layer
-├── Refresh Rules
-├── Decay Detection
-├── Consolidation
-└── Maintenance
+    ├── Refresh Rules
+    ├── Decay Detection
+    ├── Consolidation
+    ├── AI Visibility Testing
+    └── Maintenance
+```
 
 ---
 
-# Included Modules
+## Included Modules
 
-## Core Workflow
+### Core Workflow
 
-- SEO Content Workflow
-- Execution Guide
-- AI Workflow Kernel
-- Master Controller System
-- Production Modes
+- `ELITE_EXECUTION_START_HERE.md`
+- `AI_WORKFLOW_KERNEL_MASTER_CONTROLLER.md`
+- `PRODUCTION_MODES_FRAMEWORK.md`
+- `MODE_ACTIVATION_RULES.md`
+- `PROMPT_ORCHESTRATION_MAP.md`
+- `AI_CONTEXT_AND_MEMORY_RULES.md`
+- `ERROR_RECOVERY_AND_QA_PROTOCOL.md`
 
-## SEO Intelligence
+### SEO Intelligence
 
-- Search Intent System
-- Entity Mapping
-- Competitor Gap Analysis
-- Semantic Coverage Rules
+- `SEARCH_INTENT_AND_ENTITY_SYSTEM.md`
+- `SEO_Content_System_Complete_Prompt_Kit.md`
+- Competitor gap analysis rules
+- Semantic coverage rules
+- Entity reinforcement rules
 
-## Technical SEO
+### AI Search Visibility
 
-- Technical Governance
-- Schema Validation
-- Metadata Rules
-- Indexability Checks
+- `AI_SEARCH_VISIBILITY_MODULE_v4.md`
+- `SEO_TEAM_AI_SEARCH_MASTER_PROMPT_v4.md`
+- AI query fan-out mapping
+- AI citation readiness checks
+- Source eligibility checklist
+- AI visibility scorecard
+- ChatGPT Search, Bing/Copilot, Perplexity, and Google AI testing workflow
 
-## Local SEO
+### Technical SEO
 
-- Geographic Architecture
-- Local Entity Reinforcement
-- Duplicate Prevention
-- Service Area Logic
+- `TECHNICAL_SEO_GOVERNANCE.md`
+- Schema validation
+- Metadata rules
+- Indexability checks
+- Crawlability checks
+- Snippet eligibility checks
+- AI bot access review
 
-## Lifecycle Management
+### Local SEO
 
-- Refresh Scheduling
-- Content Decay Detection
-- Consolidation Rules
-- Update Prioritization
+- `LOCAL_SEO_ARCHITECTURE_MODULE.md`
+- Geographic architecture
+- Local entity reinforcement
+- Duplicate prevention
+- Service area logic
+
+### Lifecycle Management
+
+- `CONTENT_LIFECYCLE_MANAGEMENT.md`
+- Refresh scheduling
+- Content decay detection
+- Consolidation rules
+- Update prioritization
+- AI visibility retesting
+
+### Changelogs
+
+- `CHANGELOG_v2.md`
+- `CHANGELOG_v3_ELITE.md`
+- `CHANGELOG_v4_AI_SEARCH.md`
 
 ---
 
-# Workflow Overview
+## Workflow Overview
 
-## Phase 1: Research
+### Phase 1: Research
 
 Goal:
 
 - Understand search intent
-- Identify entities
+- Identify primary and secondary entities
 - Review SERP patterns
 - Evaluate competitors
+- Identify AI Overview or AI answer opportunities
+- Map AI query fan-out paths
 
 Output:
 
 - Approved research package
+- Intent map
+- Entity map
+- Fan-out question map
+- Competitor visibility notes
 
 ---
 
-## Phase 2: Strategy
+### Phase 2: Strategy
 
 Goal:
 
-- Build structure
-- Define hierarchy
+- Build the page structure
+- Define heading hierarchy
 - Map internal links
 - Determine content type
+- Define evidence requirements
+- Plan extractable answer sections
+- Select schema recommendations
 
 Output:
 
-- Approved blueprint
+- Approved content blueprint
+- Source eligibility plan
+- Internal linking plan
+- AI-search readiness plan
 
 ---
 
-## Phase 3: Production
+### Phase 3: Production
 
 Goal:
 
 - Generate content
+- Apply answer-first formatting
+- Use entity-rich language
+- Add evidence and proof
 - Apply semantic optimization
 - Humanize language
 - Add conversion logic
@@ -154,115 +233,169 @@ Goal:
 Output:
 
 - Draft content
+- SEO metadata
+- FAQ section
+- Internal links
+- Schema recommendation
+- Proof-needed list
 
 ---
 
-## Phase 4: Validation
+### Phase 4: Validation
 
 Goal:
 
-- Technical checks
-- SEO QA
-- Entity validation
-- Structural review
+- Run technical checks
+- Validate indexability
+- Validate crawlability
+- Review AI bot accessibility
+- Check snippet eligibility
+- Confirm entity clarity
+- Review evidence and source quality
+- Score AI visibility readiness
 
 Output:
 
 - Publish-ready content
+- Revision notes
+- Final publish verdict
 
 ---
 
-## Phase 5: Lifecycle Management
+### Phase 5: Lifecycle Management
 
 Goal:
 
 - Monitor performance
-- Refresh content
-- Prevent decay
-- Consolidate overlap
+- Refresh outdated content
+- Detect content decay
+- Consolidate overlapping pages
+- Re-test AI visibility
+- Improve citation opportunities over time
 
 Output:
 
 - Long-term maintenance plan
+- Refresh queue
+- Consolidation recommendations
+- AI visibility tracking notes
 
 ---
 
-# Production Modes
+## Production Modes
 
-## Strict Mode
+### Strict Mode
 
 Use for:
 
 - Pillar pages
 - High-value landing pages
 - Authority content
+- Competitive commercial pages
+- Pages targeting AI citations
 
 Characteristics:
 
 - Deep research
 - Full validation
+- Source review
+- AI fan-out mapping
 - Maximum QA
 
 ---
 
-## Fast Mode
+### Fast Mode
 
 Use for:
 
 - Standard content
 - Supporting articles
+- Low-risk updates
 
 Characteristics:
 
 - Faster execution
 - Reduced validation
+- Basic AI-readiness checks
 
 ---
 
-## Bulk Mode
+### Bulk Mode
 
 Use for:
 
 - Large publishing operations
-- Scalable production
+- Programmatic content batches
+- Scalable content production
 
 Characteristics:
 
 - Standardized workflows
 - Faster throughput
+- Template-based QA
+- Duplicate prevention controls
 
 ---
 
-## Local SEO Mode
+### Local SEO Mode
 
 Use for:
 
 - City pages
-- Service pages
+- Service area pages
 - Regional content
+- Location-based landing pages
 
 Characteristics:
 
 - Geographic controls
+- Local entity reinforcement
 - Duplicate prevention
+- Local proof requirements
 
 ---
 
-## Conversion Mode
+### Conversion Mode
 
 Use for:
 
-- Lead generation
+- Lead generation pages
 - Commercial pages
+- Service pages
+- Landing pages
 
 Characteristics:
 
 - CTA optimization
-- Conversion structure
+- Objection handling
+- Buyer decision support
+- Proof-led positioning
 
 ---
 
-# AI Workflow Rules
+### AI Search Mode
+
+Use for:
+
+- Content targeting Google AI Overviews
+- Content targeting ChatGPT Search visibility
+- Content targeting Bing/Copilot or Perplexity citations
+- High-authority educational content
+- Comparison or decision-support content
+
+Characteristics:
+
+- Answer-first structure
+- Query fan-out coverage
+- Entity clarity
+- Evidence-backed claims
+- Extractable formatting
+- Source eligibility review
+- AI visibility scorecard
+
+---
+
+## AI Workflow Rules
 
 The framework enforces:
 
@@ -271,6 +404,10 @@ The framework enforces:
 - Context persistence
 - Role isolation
 - Error recovery logic
+- Validation before publishing
+- Human review for sensitive claims
+- Proof checks for authority claims
+- Technical review for indexability and AI access
 
 AI roles include:
 
@@ -280,59 +417,188 @@ AI roles include:
 - Editor
 - Auditor
 - Technical Validator
+- AI Search Visibility Analyst
+- Entity Mapper
+- Lifecycle Manager
 
-Each role has defined responsibilities.
+Each role has defined responsibilities and should not skip validation steps.
 
 ---
 
-# Recommended Usage
+## Recommended Usage
 
-Step 1:
+### Step 1
 
 Start with:
 
-`Master Controller`
+```text
+ELITE_EXECUTION_START_HERE.md
+```
 
-Step 2:
+### Step 2
 
-Select:
+Select the correct production mode:
 
-`Production Mode`
+```text
+Strict Mode
+Fast Mode
+Bulk Mode
+Local SEO Mode
+Conversion Mode
+AI Search Mode
+```
 
-Step 3:
+### Step 3
 
-Run workflow phases sequentially.
+Run the workflow phases sequentially:
 
-Step 4:
+```text
+Research → Strategy → Production → Validation → Lifecycle Management
+```
+
+### Step 4
 
 Validate before publishing.
 
-Step 5:
+Do not publish content that fails:
 
-Maintain lifecycle workflows.
+- Search intent validation
+- Entity validation
+- Evidence validation
+- Technical SEO validation
+- AI visibility readiness checks
+
+### Step 5
+
+Maintain the content over time.
+
+Refresh, consolidate, improve, and re-test pages based on performance and AI visibility changes.
 
 ---
 
-# Goals
+## AI Search Readiness Checklist
+
+Use this checklist before publishing important pages:
+
+```markdown
+- [ ] The page answers the main query in the first 100 words
+- [ ] The page uses clear H1, H2, and H3 structure
+- [ ] H2/H3 headings are specific and question-based where useful
+- [ ] Primary and secondary entities are clearly defined
+- [ ] AI query fan-out questions are answered
+- [ ] Claims are supported with proof or credible sources
+- [ ] Internal links support topical authority
+- [ ] Important content is visible in HTML
+- [ ] Page is indexable
+- [ ] Page is not blocked by robots.txt
+- [ ] Googlebot is allowed
+- [ ] Bingbot is allowed
+- [ ] OAI-SearchBot is allowed if ChatGPT Search visibility is desired
+- [ ] Canonical tag is correct
+- [ ] Metadata is unique
+- [ ] Schema recommendations match visible content
+- [ ] FAQ content is useful and not thin
+- [ ] Content is better than a generic AI-generated answer
+- [ ] Final publish verdict is Ready
+```
+
+---
+
+## SEO + AI Visibility Scorecard
+
+Score important pages before publishing.
+
+| Factor | Score 0–2 | Notes |
+|---|---:|---|
+| Main answer appears in first 100 words |  |  |
+| Search intent is fully satisfied |  |  |
+| AI fan-out questions are answered |  |  |
+| Entity relationships are clear |  |  |
+| Claims are supported with proof |  |  |
+| Page uses extractable formatting |  |  |
+| Internal links support topical authority |  |  |
+| Schema is recommended correctly |  |  |
+| Content has original insight |  |  |
+| Content is better than generic AI output |  |  |
+
+Score guide:
+
+```text
+18–20 = Ready to publish
+14–17 = Needs improvement
+Below 14 = Do not publish
+```
+
+---
+
+## Recommended GitHub Structure
+
+```text
+SEO_Framework_Elite_v4_AI_Search/
+│
+├── README.md
+├── ELITE_EXECUTION_START_HERE.md
+├── SEO_TEAM_AI_SEARCH_MASTER_PROMPT_v4.md
+├── AI_SEARCH_VISIBILITY_MODULE_v4.md
+├── AI_WORKFLOW_KERNEL_MASTER_CONTROLLER.md
+├── SEARCH_INTENT_AND_ENTITY_SYSTEM.md
+├── TECHNICAL_SEO_GOVERNANCE.md
+├── LOCAL_SEO_ARCHITECTURE_MODULE.md
+├── CONTENT_LIFECYCLE_MANAGEMENT.md
+├── PRODUCTION_MODES_FRAMEWORK.md
+├── MODE_ACTIVATION_RULES.md
+├── PROMPT_ORCHESTRATION_MAP.md
+├── AI_CONTEXT_AND_MEMORY_RULES.md
+├── ERROR_RECOVERY_AND_QA_PROTOCOL.md
+├── SEO_Content_System_Complete_Prompt_Kit.md
+├── execution_guide_prompt_download.md
+├── CHANGELOG_v2.md
+├── CHANGELOG_v3_ELITE.md
+└── CHANGELOG_v4_AI_SEARCH.md
+```
+
+---
+
+## Best Use Cases
+
+This framework is best for:
+
+- SEO agencies
+- Content teams
+- Local SEO teams
+- In-house marketing teams
+- AI-assisted publishing teams
+- Agencies managing scalable SEO production
+- Teams optimizing for both search engines and AI answer engines
+
+---
+
+## Goals
 
 This framework aims to provide:
 
 - Higher output consistency
 - Better AI control
 - Stronger SEO scalability
+- Better traditional search performance
+- Better AI search visibility
+- More reliable content validation
 - Lower operational friction
 - Repeatable execution
+- Stronger long-term content governance
 
 ---
 
-# Version
+## Version
 
-Current Release:
+Current release:
 
-**Elite SEO Operations Framework v3**
+```text
+Elite SEO Operations Framework v4 AI Search Edition
+```
 
 ---
 
-# License
+## License
 
 Modify as needed for your project requirements.
