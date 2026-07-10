@@ -290,7 +290,35 @@ Better opening:
 
 ---
 
-## 8. Formatting Rules for AI Extraction
+## 8. Sentence-Level Writing Rules
+
+Write direct, verb-led sentences as concisely as the meaning allows. Do not shorten sentences until they lose context, proof, nuance, or accuracy.
+
+Rules:
+
+- Prefer active sentences with a clear subject and a strong action verb.
+- Keep one primary idea per sentence.
+- Use the fewest words needed to preserve meaning and evidence.
+- Aim for an average sentence length of 12–20 words, not a rigid limit.
+- Vary sentence length to maintain a natural human rhythm.
+- Replace weak openings such as “there is,” “there are,” and “it is” when a direct verb works better.
+- Use passive voice only when the actor is unknown, irrelevant, or intentionally de-emphasized.
+- Split sentences longer than 30 words when doing so improves clarity.
+- Remove filler, repetition, vague modifiers, and unnecessary transitions.
+- Preserve necessary qualifications in technical, legal, medical, financial, compliance, and evidence-based content.
+- Do not force every sentence into the same structure. Natural variation matters.
+
+Sentence QA:
+
+- [ ] Most sentences contain a clear subject and a strong action verb.
+- [ ] Each sentence communicates one primary idea.
+- [ ] Long sentences are split where clarity improves.
+- [ ] Sentence length varies naturally and does not sound robotic.
+- [ ] Concision has not removed context, evidence, or necessary qualifications.
+
+---
+
+## 9. Formatting Rules for AI Extraction
 
 Use formatting that makes the content easy to parse and cite.
 
@@ -321,7 +349,7 @@ Avoid:
 
 ---
 
-## 9. Evidence and E-E-A-T Rules
+## 10. Evidence and E-E-A-T Rules
 
 Every page must show real experience, expertise, authority, and trust.
 
@@ -372,7 +400,7 @@ If proof is missing, include:
 
 ---
 
-## 10. Freshness Rules
+## 11. Freshness Rules
 
 The content must reflect the current search and industry environment.
 
@@ -401,7 +429,7 @@ Do not fake freshness. Only update dates after meaningful changes.
 
 ---
 
-## 11. Internal Linking Rules
+## 12. Internal Linking Rules
 
 Add internal links that help users and AI systems understand topical authority.
 
@@ -440,7 +468,7 @@ conversion-focused landing page design
 
 ---
 
-## 12. External Citation Rules
+## 13. External Citation Rules
 
 Use external sources when they improve trust.
 
@@ -468,7 +496,7 @@ Do not cite weak sources just to add links.
 
 ---
 
-## 13. Schema Recommendations
+## 14. Schema Recommendations
 
 Recommend structured data based on the page type.
 
@@ -493,7 +521,7 @@ Schema rules:
 
 ---
 
-## 14. Technical SEO and AI Search Readiness Checklist
+## 15. Technical SEO and AI Search Readiness Checklist
 
 Complete this checklist after drafting.
 
@@ -524,7 +552,7 @@ Complete this checklist after drafting.
 
 ---
 
-## 15. On-Page SEO Deliverables
+## 16. On-Page SEO Deliverables
 
 For every page, provide:
 
@@ -578,7 +606,7 @@ For every page, provide:
 
 ---
 
-## 16. AI Visibility QA Scorecard
+## 17. AI Visibility QA Scorecard
 
 Score the page before publishing.
 
@@ -594,6 +622,7 @@ Score the page before publishing.
 | Schema is recommended correctly |  |  |
 | Content has original insight |  |  |
 | Content is better than generic AI output |  |  |
+| Sentence-level clarity and verb-led writing are strong |  |  |
 
 Scoring:
 
@@ -604,14 +633,14 @@ Scoring:
 Publish rule:
 
 ```text
-18–20 = Ready to publish
-14–17 = Needs improvement
-Below 14 = Do not publish
+20–22 = Ready to publish
+16–19 = Needs improvement
+Below 16 = Do not publish
 ```
 
 ---
 
-## 17. Competitor and AI Search Testing
+## 18. Competitor and AI Search Testing
 
 Before publishing or refreshing an important page, test the topic in:
 
@@ -647,7 +676,7 @@ Record results:
 
 ---
 
-## 18. Final Output Format
+## 19. Final Output Format
 
 Return the completed work in this order:
 
@@ -685,7 +714,7 @@ Ready / Needs Revision / Blocked
 
 ---
 
-## 19. Final Instruction
+## 20. Final Instruction
 
 Create content that a human buyer would trust and an AI system could confidently cite.
 
@@ -700,5 +729,6 @@ The content must be:
 - Crawlable
 - Internally connected
 - Better than generic AI output
+- Verb-led and concise without losing meaning
 
 Do not submit the draft until it passes the AI Visibility QA.

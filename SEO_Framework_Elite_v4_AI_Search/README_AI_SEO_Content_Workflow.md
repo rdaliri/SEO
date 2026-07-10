@@ -215,6 +215,9 @@ Objective:
 - Remove machine-sounding language
 - Remove filler phrases
 - Break repetitive rhythm
+- Prefer clear subjects and strong action verbs
+- Keep one primary idea per sentence where practical
+- Shorten sentences only when meaning, evidence, and nuance remain intact
 - Add expert-level specificity
 - Preserve SEO integrity while making the content read like a real specialist wrote it
 
@@ -273,6 +276,8 @@ The AI running this system must obey these rules:
 8. Always preserve Canadian English spelling.
 9. Always treat the SEO Lead as the final authority.
 10. Always assume WordPress is the publishing environment.
+11. Use direct, verb-led sentences, but never sacrifice context, proof, nuance, or accuracy for brevity.
+12. Vary sentence length and structure so the final copy reads naturally.
 
 ---
 
@@ -338,6 +343,10 @@ Before any page or article goes live, confirm all items below:
 - [ ] Final audit completed
 - [ ] SEO Lead approval recorded
 - [ ] WordPress metadata ready (title, meta, slug, schema, internal links)
+- [ ] Most sentences have a clear subject and a strong action verb
+- [ ] Long sentences were split where clarity improved
+- [ ] Sentence length varies naturally
+- [ ] Concision did not remove evidence, context, or necessary qualifications
 
 ---
 

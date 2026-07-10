@@ -1,4 +1,4 @@
-# Elite SEO Operations Framework v4 AI Search Edition
+# Elite SEO Operations Framework v4.1 AI Search Edition
 
 A structured AI-assisted SEO operating system for scalable content production, technical governance, local SEO, lifecycle management, and modern AI search visibility.
 
@@ -58,6 +58,7 @@ The framework follows these principles:
 6. Source eligibility before AI visibility
 7. Systems before prompts
 8. Scalability before speed
+9. Clarity before unnecessary brevity
 
 ---
 
@@ -238,6 +239,25 @@ Output:
 - Internal links
 - Schema recommendation
 - Proof-needed list
+
+---
+
+## Sentence-Level Writing Standard
+
+The framework uses direct, verb-led sentences, but it does not force every sentence to be as short as possible. Clarity, evidence, and meaning come first.
+
+Use these rules during drafting, humanization, and final QA:
+
+- Prefer active sentences with a clear subject and a strong action verb.
+- Keep one primary idea per sentence.
+- Use the fewest words needed without removing meaning, evidence, or nuance.
+- Aim for an average sentence length of 12–20 words, while allowing necessary variation.
+- Replace weak openings such as “there is,” “there are,” and “it is” when a direct verb works better.
+- Split sentences longer than 30 words when the split improves clarity.
+- Use passive voice only when the actor is unknown, irrelevant, or intentionally de-emphasized.
+- Remove filler, repetition, vague modifiers, and unnecessary transitions.
+- Preserve qualifications required for technical, legal, medical, financial, compliance, and evidence-based claims.
+- Vary sentence length and structure so the writing sounds natural rather than mechanical.
 
 ---
 
@@ -499,6 +519,10 @@ Use this checklist before publishing important pages:
 - [ ] Schema recommendations match visible content
 - [ ] FAQ content is useful and not thin
 - [ ] Content is better than a generic AI-generated answer
+- [ ] Most sentences use a clear subject and a strong action verb
+- [ ] Each sentence carries one primary idea where practical
+- [ ] Sentence length varies naturally and avoids a robotic rhythm
+- [ ] Concision has not removed important context or qualifications
 - [ ] Final publish verdict is Ready
 ```
 
@@ -520,13 +544,14 @@ Score important pages before publishing.
 | Schema is recommended correctly |  |  |
 | Content has original insight |  |  |
 | Content is better than generic AI output |  |  |
+| Sentence-level clarity and verb-led writing are strong |  |  |
 
 Score guide:
 
 ```text
-18–20 = Ready to publish
-14–17 = Needs improvement
-Below 14 = Do not publish
+20–22 = Ready to publish
+16–19 = Needs improvement
+Below 16 = Do not publish
 ```
 
 ---
@@ -594,7 +619,7 @@ This framework aims to provide:
 Current release:
 
 ```text
-Elite SEO Operations Framework v4 AI Search Edition
+Elite SEO Operations Framework v4.1 AI Search Edition
 ```
 
 ---
