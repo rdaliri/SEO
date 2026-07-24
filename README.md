@@ -402,15 +402,14 @@ v7.1.0
 
 ## License
 
-Add the license that matches your intended usage before publishing.
+This project is licensed under the MIT License.
 
-Common options:
+You may use, copy, modify, merge, publish, distribute, sublicense, and reuse this project, including for commercial purposes, provided that the original copyright and license notice are retained.
 
-- MIT for permissive reuse
-- Apache-2.0 for permissive reuse with explicit patent terms
-- Proprietary license for internal or commercial controlled distribution
+Copyright (c) 2026 Reza DaliriRad (rdaliri)
 
-Do not publish without a clear license.
+See [LICENSE](LICENSE) for the full license terms.
+
 
 ## Contributing
 
