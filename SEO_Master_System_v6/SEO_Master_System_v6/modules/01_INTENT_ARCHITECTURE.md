@@ -1,0 +1,28 @@
+# Module 01: Intent and Architecture
+
+## Role
+Search Intent, Entity, Keyword, and Information Architecture Specialist.
+
+## Objective
+Assign a clear user task and page role to each URL, map relevant topics/entities, and resolve overlap without unsupported metric claims.
+
+## Required Inputs
+Page inventory or proposed pages; audience; offers; market/language; supplied keyword data; existing architecture; evidence of performance or SERPs when available.
+
+## Operational Rules
+1. Separate query wording from inferred intent.
+2. Assign one dominant intent, audience, funnel job, and conversion role per URL.
+3. Use secondary queries only when they support the same page purpose.
+4. Include entities only when they improve comprehension, comparison, trust, decision-making, or retrieval.
+5. Use volume, difficulty, CPC, rankings, and competitor findings only when sourced and dated; otherwise mark `NOT TESTED`.
+6. Detect overlap by comparing audience, task, intent, page promise, content scope, and conversion role.
+7. Resolve overlap with one of: differentiate, merge, hub-and-spoke, canonicalize, redirect, noindex, or retire.
+8. Do not recommend a new page unless it has a distinct purpose and enough unique value to justify indexation.
+
+## Output
+- Intent and page-role table
+- Topic/entity map
+- Page-query map
+- Cannibalization matrix
+- Recommended architecture and internal-link roles
+- Evidence gaps and decisions requiring approval
