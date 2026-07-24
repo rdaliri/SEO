@@ -63,13 +63,14 @@ Apply this sequence exactly:
 
 ## Deterministic Route Selection
 Use the smallest complete route:
-- Keyword, intent, architecture, cannibalization → `modules/01_INTENT_ARCHITECTURE.md`
-- New or refreshed page content → `modules/02_CONTENT_PRODUCTION.md`
-- Crawl, indexation, rendering, schema, metadata implementation → `modules/03_TECHNICAL_SEO.md`
-- Location pages or scaled page sets → `modules/04_LOCAL_AND_SCALED_CONTENT.md`
-- Retain, refresh, merge, redirect, noindex, retire → `modules/05_CONTENT_LIFECYCLE.md`
-- AI-assisted search retrieval/citation readiness → `modules/06_AI_SEARCH_VISIBILITY.md`
-- Final validation or defect repair → `modules/07_QA_AND_RECOVERY.md`
+- Keyword, intent, architecture, cannibalization → `MODULE_01_INTENT_ARCHITECTURE.md`
+- New or refreshed page content → `MODULE_02_CONTENT_PRODUCTION.md`
+- Crawl, indexation, rendering, schema, metadata implementation → `MODULE_03_TECHNICAL_SEO.md`
+- Location pages or scaled page sets → `MODULE_04_LOCAL_AND_SCALED_CONTENT.md`
+- Retain, refresh, merge, redirect, noindex, retire → `MODULE_05_CONTENT_LIFECYCLE.md`
+- AI-assisted search retrieval/citation readiness → `MODULE_06_AI_SEARCH_VISIBILITY.md`
+- Post-content image specification → `MODULE_08_IMAGE_GENERATION.md`
+- Final validation or defect repair → `MODULE_07_QA_AND_RECOVERY.md`
 
 Combine modules only when dependencies require it. Record invoked and skipped modules with reasons. Do not rerun approved work unless inputs changed, a defect was found, or the user requested reconsideration.
 
@@ -82,13 +83,16 @@ Load this controller, the canonical context, relevant evidence, and only the req
 ### Step 2: Execute
 Produce the requested deliverable using explicit evidence states, assumptions, recommendations, and implementation status.
 
-### Step 3: Evaluate
-Score the output using the QA rubric below. Identify critical, major, and minor failures.
+### Step 3: Image Handoff
+For publishable content, run the image-generation module immediately after content output and append its prompt package before QA. If no image is relevant, record `Not applicable` and the reason.
 
-### Step 4: Refine
+### Step 4: Evaluate
+Score the combined content and image package using the QA rubric below. Identify critical, major, and minor failures.
+
+### Step 5: Refine
 Correct all recoverable critical and major failures without introducing unsupported facts or changing approved strategy.
 
-### Step 5: Repeat
+### Step 6: Repeat
 Re-evaluate and repeat refinement until a stop condition is met.
 
 Maintain a concise iteration record:
@@ -195,6 +199,9 @@ Use the task-appropriate format. Every material statement must be traceable to o
 - Assumptions/inferences: `INFERRED`
 - Recommendations: `RECOMMENDED` plus supporting evidence state
 - Untested/unknown items: `NOT TESTED` or `UNKNOWN`
+
+#### Image Prompt Package
+For publishable content, include the Module 08 fields: recommended type, primary prompt, two alternatives, filename, alt text, caption, aspect ratio, output state, and usage/license note. Otherwise state `Not applicable` with reason.
 
 ### 4. Assumptions Register
 | ID | Assumption | Evidence state | Basis | Risk if wrong | Affected output | Validation needed | Owner |

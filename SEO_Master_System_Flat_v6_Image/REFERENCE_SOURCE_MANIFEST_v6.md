@@ -33,17 +33,21 @@
 - `SEO_SYSTEM_AUDIT_REPORT_v6.md`
 - `SOURCE_MANIFEST_v6.md`
 - `README.md`
-- `modules/01_INTENT_ARCHITECTURE.md`
-- `modules/02_CONTENT_PRODUCTION.md`
-- `modules/03_TECHNICAL_SEO.md`
-- `modules/04_LOCAL_AND_SCALED_CONTENT.md`
-- `modules/05_CONTENT_LIFECYCLE.md`
-- `modules/06_AI_SEARCH_VISIBILITY.md`
-- `modules/07_QA_AND_RECOVERY.md`
+- `MODULE_01_INTENT_ARCHITECTURE.md`
+- `MODULE_02_CONTENT_PRODUCTION.md`
+- `MODULE_03_TECHNICAL_SEO.md`
+- `MODULE_04_LOCAL_AND_SCALED_CONTENT.md`
+- `MODULE_05_CONTENT_LIFECYCLE.md`
+- `MODULE_06_AI_SEARCH_VISIBILITY.md`
+- `MODULE_07_QA_AND_RECOVERY.md`
 
 ## Final Production Hardening
 Updated in place:
 - `SEO_MASTER_CONTROLLER_v6.md`: precise severity definitions, deterministic missing-input behavior, mandatory verification registers, and module-conflict escalation.
-- `modules/07_QA_AND_RECOVERY.md`: inherits the controller taxonomy, escalation rule, and output contract without modification.
+- `MODULE_07_QA_AND_RECOVERY.md`: inherits the controller taxonomy, escalation rule, and output contract without modification.
 - `README.md`: documents mandatory production behavior and output sections.
 - `SEO_SYSTEM_AUDIT_REPORT_v6.md`: records final hardening and production verdict.
+## Image Production Addendum
+- Added `modules/08_IMAGE_GENERATION.md` as a task-only post-content module.
+- Added `IMAGE_PIPELINE_DEVELOPER_NOTE.md` as implementation guidance.
+- Controller authority, evidence states, QA rubric, stop conditions, and retry limits are unchanged.

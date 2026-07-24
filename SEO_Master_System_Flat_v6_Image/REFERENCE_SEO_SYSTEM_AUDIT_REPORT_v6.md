@@ -29,7 +29,7 @@ The v5 framework had sound SEO principles but was not a single executable system
 1. `SEO_MASTER_CONTROLLER_v6.md`
 2. `CANONICAL_PROJECT_CONTEXT_v6.md`
 3. Relevant task module(s) only
-4. `modules/07_QA_AND_RECOVERY.md`
+4. `MODULE_07_QA_AND_RECOVERY.md`
 5. Update context and evidence register after approval
 
 ## Audit Verdict
@@ -43,3 +43,5 @@ The v5 framework had sound SEO principles but was not a single executable system
 
 ## Final Audit Verdict
 `PASS` for production use, subject to completion of business-specific context and evidence registers. The controller is the sole governance authority; modules are executable task logic only.
+## Image-Step Patch
+A task-only image-generation module was added after content production and before final QA. The patch adds no new controller authority, scoring criterion, retry, or stop rule. Image assets remain `NOT TESTED` until rendered and directly inspected.
