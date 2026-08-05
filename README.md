@@ -1,18 +1,19 @@
-# SEO Master System v7.1
+# SEO Master System v7.3.1
 
-A production-ready prompt system for SEO, AEO, GEO, humanized content production, technical auditing, local SEO, AI-search visibility, QA, and image-prompt generation.
+A production-ready prompt system for SEO, AEO, GEO, content production, technical auditing, local and scaled SEO, AI-search visibility, editorial humanization, batch-similarity review, image-prompt generation, and final QA.
 
-The release provides four editions so the same governance model can be used in ChatGPT, repositories, IDEs, APIs, agents, and automated workflows.
+The release provides Full and Lite editions in Flat and Modular formats so the same governance model can be used in ChatGPT Projects, repositories, IDEs, APIs, agents, and automated workflows.
 
-## Release status
+## Release Status
 
-**Version:** `7.1-seo-aeo-geo-humanize`  
+**Version:** `v7.3.1-editorial-humanization-governance`  
 **Status:** Production-ready  
-**Validation verdict:** PASS
+**Validation verdict:** `PASS`
 
-The system preserves:
+This release preserves:
 
 - one authoritative controller per package
+- automatic task and module routing
 - explicit evidence states
 - deterministic missing-data handling
 - bounded retries and stop conditions
@@ -20,39 +21,63 @@ The system preserves:
 - mandatory QA and final verdict logic
 - image-generation handoff after content production
 - SEO, AEO, GEO, and humanization controls
+- direct single-asset editorial auditing
+- cross-document batch-similarity auditing
+- non-authoritative AI-detector result governance
+
+## What This System Does
+
+The controller selects the smallest complete module route for each task.
+
+The system supports:
+
+- SEO strategy, intent architecture, entities, and page-role planning
+- keyword research, site architecture, and cannibalization review
+- content briefs, articles, landing pages, and rewrites
+- technical SEO audits
+- local and scaled-content projects
+- content refresh, consolidation, redirect, and retirement decisions
+- AEO and GEO visibility review
+- AI-search source eligibility and citation readiness
+- single-asset editorial humanization audits
+- cross-document similarity and originality audits
+- external AI-detector result governance
+- image concepts and generation-ready prompts
+- final QA, defect correction, retesting, and verdict preparation
 
 ## Packages
 
 | Package | Mode | Format | Best use |
 |---|---|---|---|
 | `SEO_Master_System_v7` | Full | Modular | Repositories, automation, APIs, IDEs, agents, and file-aware systems |
-| `SEO_Master_System_Flat_v7` | Full | Flat | Complex manual ChatGPT projects, formal audits, and high-risk work |
-| `SEO_Master_System_Lite_v7` | Lite | Modular | Fast repository-based or automated daily execution |
+| `SEO_Master_System_Flat_v7` | Full | Flat | Complex ChatGPT Projects, formal audits, regulated topics, and high-risk work |
+| `SEO_Master_System_Lite_v7` | Lite | Modular | Faster repository-based or automated daily execution |
 | `SEO_Master_System_Lite_Flat_v7` | Lite | Flat | Routine manual work in ChatGPT |
 
-## Recommended edition
+## Recommended Edition
 
-Use **Lite Flat v7.1** for routine manual work in ChatGPT.
+Use **Lite Flat** for routine manual work with reduced reporting overhead.
 
-Use **Full Flat v7.1** for complex audits, client-facing deliverables, regulated topics, scaled-content reviews, or projects requiring detailed evidence and decision registers.
+Use **Full Flat** for complex audits, client-facing deliverables, regulated topics, scaled-content reviews, batch humanization, or projects requiring detailed evidence and decision registers.
 
-Use **Full Modular v7.1** for repositories, APIs, IDEs, agents, and automated production pipelines.
+Use **Full Modular** for repositories, APIs, IDEs, agents, and automated production pipelines.
 
-## Full versus Lite
+## Full Versus Lite
 
 ### Full
 
 The Full edition is designed for complex or high-risk work. It provides:
 
-- detailed assumptions and verification registers
+- detailed evidence and assumption registers
 - expanded decision logs
 - full defect tracking
 - detailed QA and iteration history
+- Module 09 batch reports
 - stronger auditability for client-facing or regulated work
 
 ### Lite
 
-The Lite edition reduces reporting and formatting overhead while preserving the same core governance.
+The Lite edition reduces reporting and formatting overhead while preserving core governance.
 
 Lite does **not** weaken:
 
@@ -65,38 +90,39 @@ Lite does **not** weaken:
 - controller authority
 - final verdict behavior
 - image-generation handoff
+- Module 09 detector-governance rules
 
-## Flat versus Modular
+## Flat Versus Modular
 
 ### Flat
 
-The Flat editions place all active files at the package root.
+Flat editions place all active files at the package root.
 
-Use Flat when manually uploading files to ChatGPT or another interface that may not reliably discover nested folders.
+Use Flat when manually uploading files to ChatGPT Projects or another interface that may not reliably discover nested folders.
 
 ### Modular
 
-The Modular editions keep task modules inside `/modules`.
+Modular editions keep task modules inside `/modules`.
 
 Use Modular in repositories, IDEs, APIs, agents, or automation environments with reliable file discovery.
 
 Flat and Modular editions of the same mode contain equivalent operational rules. Their differences are limited to filenames, paths, navigation, and loading instructions.
 
-## Core architecture
+## Core Architecture
 
 Each package contains exactly one authoritative controller.
 
-### Full controller
+### Full Controller
 
 `SEO_MASTER_CONTROLLER_v7.md`
 
-### Lite controller
+### Lite Controller
 
 `SEO_MASTER_CONTROLLER_LITE_v7.md`
 
 The controller is the sole authority for:
 
-- routing
+- task routing
 - evidence states
 - missing-data decisions
 - defect severity
@@ -110,20 +136,118 @@ The controller is the sole authority for:
 
 Task modules cannot override the controller.
 
-## Active modules
+## Active Modules
 
 | Module | Purpose |
 |---|---|
 | Module 01 | Intent, keyword architecture, entities, page mapping, and cannibalization |
-| Module 02 | Content production, AEO answer-first rules, readability, and humanization |
+| Module 02 | Content production, AEO answer-first rules, readability, and page-level humanization |
 | Module 03 | Technical SEO, crawlability, indexability, rendering, structured data, and accessibility |
-| Module 04 | Local SEO and scaled-content safeguards |
+| Module 04 | Local SEO, programmatic pages, scaled-content safeguards, and doorway-risk review |
 | Module 05 | Content lifecycle, refresh, merge, redirect, noindex, and retirement decisions |
 | Module 06 | AI-search visibility, GEO, source eligibility, freshness, proof, and citation readiness |
-| Module 07 | Specialist QA, recovery, repair, and verdict support |
+| Module 07 | Specialist QA, recovery, repair, retesting, and verdict support |
 | Module 08 | Image-generation prompts, filenames, alt text, captions, and image handoff |
+| Module 09 | Single-asset editorial auditing, batch similarity, originality, and detector governance |
 
-## Evidence states
+## Default Execution Architecture
+
+```text
+Controller
+  ↓
+Canonical project context
+  ↓
+Selected task modules
+  ↓
+Primary deliverable
+  ↓
+Module 09 when editorial or batch review applies
+  ↓
+Module 04 when local or scaled-content risk applies
+  ↓
+Module 08 when image work applies
+  ↓
+Module 07 QA and recovery
+  ↓
+Controller verdict
+```
+
+The controller selects the smallest complete route. The user does not need to name every module manually.
+
+## Automatic Module 09 Routing
+
+`MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md` must be invoked automatically when its trigger conditions are met.
+
+### Mode A: Single-Asset Editorial Audit
+
+Use automatically when one article, landing page, brief, or draft needs review, improvement, humanization, or publication preparation.
+
+Mode A checks for:
+
+- generic or formulaic openings
+- repeated sentence stems
+- uniform sentence and paragraph rhythm
+- weak specificity or information gain
+- unsupported claims
+- weakened factual, medical, legal, financial, or technical qualifiers
+- fabricated experience
+- artificial humanization tactics
+- templated conclusions
+
+### Mode B: Batch Humanization and Similarity Audit
+
+Use automatically when:
+
+- three or more related drafts are supplied
+- multiple pages share a template, service family, location pattern, keyword cluster, page type, or editorial framework
+- the user requests review, comparison, improvement, humanization, validation, or publication preparation for a related batch
+- structural duplication, weak differentiation, page-role overlap, near-duplicate content, or scaled-content risk may exist
+
+Mode B must compare all pages against one another, not only review them individually.
+
+It checks for:
+
+- structural duplication
+- repeated phrases and sentence stems
+- repeated headings and section order
+- repeated CTAs, FAQs, disclaimers, metadata, and anchor text
+- near-duplicate paragraphs
+- intent or page-role overlap
+- weak page-specific information gain
+- templated conclusions
+- unnecessary uniformity across the batch
+
+The user does not need to write:
+
+```text
+Run Module 09 Mode B
+```
+
+when the batch conditions are already present.
+
+### Mode C: External Detector Result Governance
+
+Use only when external AI-detector results are supplied.
+
+Detector results must be:
+
+- recorded with the tool, date, version when known, tested scope, and reported result
+- classified as `SUPPLIED`
+- treated as non-authoritative observations
+- excluded as proof of authorship
+- excluded as the sole reason for approval, rejection, rewriting, or publication
+
+Authorship remains:
+
+```text
+NOT TESTED
+```
+
+### Combined Mode
+
+Use when a direct Mode A or Mode B audit and supplied detector-result governance both apply.
+
+## Evidence States
 
 The system uses explicit evidence labels:
 
@@ -132,87 +256,176 @@ The system uses explicit evidence labels:
 - `CALCULATED` — derived from supplied or observed data
 - `INFERRED` — reasonable interpretation that is not directly verified
 - `NOT TESTED` — not verified or not yet inspected
+- `UNKNOWN` — required information is unavailable
+- `RECOMMENDED` — proposed action or improvement
 
-The system must not present inferred, recommended, or untested information as verified fact.
+The system must not present inferred, recommended, unknown, or untested information as verified fact.
 
-## Default execution sequence
+## ChatGPT Project Setup
 
-### Full workflow
+### 1. Create a Dedicated Project
 
-1. Initialize the Full controller.
-2. Load the canonical project context.
-3. Load only the required task modules.
-4. Produce the primary content or audit result.
-5. Run Module 08 for publishable content when an image is relevant.
-6. Run Module 07 QA and recovery.
-7. Let the controller evaluate the result.
-8. Return the final verdict and required registers.
+Create one project for the selected package edition.
 
-### Lite workflow
+Do not mix Full and Lite, Flat and Modular, or different release versions in the same project.
 
-1. Initialize the Lite controller.
-2. Load the Lite canonical project context.
-3. Load only the required task modules.
-4. Produce the primary result.
-5. Run Module 08 when an image is relevant.
-6. Run Module 07 compact QA.
-7. Let the Lite controller issue the final verdict.
+### 2. Add the Project Instruction
 
-Module 08 does not replace content QA. Module 07 does not override the controller.
+Paste the approved Full Flat or Lite Flat project instruction into the ChatGPT Project Instructions field.
 
-## ChatGPT loading instructions
+The instruction should:
 
-For Flat packages:
+- establish controller authority
+- require automatic task routing
+- require automatic Module 09 activation
+- define evidence states
+- prohibit fabricated evidence
+- require Module 07 final QA
 
-1. Open `START_HERE.md`.
-2. Load the sole controller.
-3. Load the canonical project context.
-4. Use the route map to identify the required modules.
-5. Load only those active modules.
-6. Load optional reference files only when their documented trigger applies.
-7. Do not load competing controllers, legacy governance files, or duplicate module copies.
+### 3. Upload Permanent Project Sources
 
-### Example loading sets
+For Full Flat, upload these once:
 
-**Content brief**
+```text
+SEO_MASTER_CONTROLLER_v7.md
+CANONICAL_PROJECT_CONTEXT_v7.md
+MODULE_01_INTENT_ARCHITECTURE.md
+MODULE_02_CONTENT_PRODUCTION.md
+MODULE_03_TECHNICAL_SEO.md
+MODULE_04_LOCAL_AND_SCALED_CONTENT.md
+MODULE_05_CONTENT_LIFECYCLE.md
+MODULE_06_AI_SEARCH_VISIBILITY.md
+MODULE_07_QA_AND_RECOVERY.md
+MODULE_08_IMAGE_GENERATION.md
+MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md
+START_HERE.md
+README.md
+TEAM_MANUAL_MODULE_09.md
+```
 
-- Controller
-- Canonical context
-- Module 01
-- Module 02
-- Module 07
+Optional reference files may also be uploaded when their triggers apply.
 
-**Technical SEO audit**
+### 4. Keep Release Records Outside the Active Prompt Set
 
-- Controller
-- Canonical context
-- Module 03
-- Module 07
+The following normally remain in the repository or release archive, but are not loaded as operational prompts:
 
-**Local SEO page**
+```text
+PACKAGE_VALIDATION_v7.3.1.json
+RELEASE_VALIDATION_REPORT.md
+CHANGELOG.md
+RELEASE_NOTES_v7.3.1.md
+SOURCE_MANIFEST_v7.md
+FLAT_FILE_MAP.md
+SEO_V7_MIGRATION_REPORT_FULL.md
+SEO_V7_MIGRATION_REPORT_LITE.md
+SHA256SUMS.txt
+```
 
-- Controller
-- Canonical context
-- Module 01
-- Module 04
-- Module 07
+These files support release management, technical QA, traceability, and troubleshooting.
 
-**AI-search visibility audit**
+## Starting a Task
 
-- Controller
-- Canonical context
-- Module 06
-- Module 07
+Attach client or task-specific files in the current chat and describe the requested work.
 
-**Publishable article with image prompts**
+Example:
 
-- Controller
-- Canonical context
-- Module 02
-- Module 08
-- Module 07
+```text
+Use the Full Flat v7 project sources.
 
-## Reference files
+Review the attached service-page drafts and prepare them for publication.
+Determine the smallest complete module route, state the selected route, execute
+the work, and run Module 07 final QA.
+
+Business objective: Improve organic visibility and conversion quality.
+Target audience: Prospective local-service customers.
+Constraints: Do not invent services, claims, locations, credentials, or outcomes.
+```
+
+The controller should select the required modules automatically.
+
+## Common Routing Examples
+
+### Single Article Review
+
+```text
+Controller
+→ Canonical Context
+→ Module 02 when revision is required
+→ Module 09 Mode A
+→ Module 08 when images are relevant
+→ Module 07
+```
+
+### Related Content Batch
+
+```text
+Controller
+→ Canonical Context
+→ Module 01 when intent architecture needs review
+→ Module 02
+→ Module 09 Mode B
+→ Module 04 when scaled or local risk applies
+→ Module 06 when AEO or GEO applies
+→ Module 08 when images are relevant
+→ Module 07
+```
+
+### Technical SEO Audit
+
+```text
+Controller
+→ Canonical Context
+→ Module 03
+→ Module 07
+```
+
+### Local or Programmatic Page Set
+
+```text
+Controller
+→ Canonical Context
+→ Module 01
+→ Module 02 when content is produced or revised
+→ Module 09 Mode B
+→ Module 04
+→ Module 07
+```
+
+### External Detector Reports
+
+```text
+Controller
+→ Canonical Context
+→ Module 09 Mode A or B direct audit
+→ Module 09 Mode C for supplied detector evidence
+→ Module 07
+```
+
+## Required Output Standard
+
+Substantial Full-edition tasks should return, when applicable:
+
+1. Executive Summary
+2. Decision Log
+3. Structured Result
+4. Evidence and Assumption Register
+5. Defect Register
+6. QA Score
+7. Verdict
+8. Conditions, owners, and retest requirements
+
+Module 09 batch work should also include:
+
+- Detector Result Register when detector evidence is supplied
+- Batch Fingerprint Report
+- Page Uniqueness Matrix
+- Phrase-Repetition Report
+- Structural Revision Plan
+- Before-and-After Samples
+- Evidence and Approval Gaps
+- Handoff to Module 07
+
+## Reference Files
 
 Reference playbooks are optional and non-authoritative.
 
@@ -231,7 +444,7 @@ Reference files:
 - cannot override canonical context
 - should not all be loaded by default
 
-## SEO, AEO, GEO, and humanization coverage
+## SEO, AEO, GEO, and Humanization Coverage
 
 ### SEO
 
@@ -272,7 +485,7 @@ The active system includes:
 - first-party proof collection or evidence substitution
 - recency and credibility controls
 
-### Humanization
+### Humanization and Originality
 
 The active system checks:
 
@@ -287,17 +500,37 @@ The active system checks:
 - paragraph-rhythm variation
 - tone alignment
 - readability
-- concrete examples
-- final human-editing pass
+- article-specific information gain
+- cross-document similarity
+- page-role overlap
+- repeated CTAs, FAQs, disclaimers, and metadata
+- near-duplicate paragraphs
+- final human-editing quality
 
-## Image-generation workflow
+## AI-Detector Governance
 
-For publishable content, Module 08 runs after content output and before final QA.
+Do not use detector percentages as proof of:
+
+- authorship
+- originality
+- factual accuracy
+- medical or legal accuracy
+- usefulness
+- SEO quality
+- AEO or GEO readiness
+- plagiarism
+- publication eligibility
+
+Never manipulate content through deliberate spelling mistakes, grammatical errors, random slang, fake personal experience, unsupported quotations, punctuation manipulation, or factual distortion to influence a detector score.
+
+## Image-Generation Workflow
+
+For publishable content, Module 08 runs after the primary content output and before final QA when images are relevant.
 
 Each image package may include:
 
 - primary production-ready prompt
-- two alternative prompts
+- alternative prompts
 - recommended aspect ratio
 - SEO-friendly filename
 - accessible alt text
@@ -307,7 +540,41 @@ Each image package may include:
 
 The module avoids fabricated trademarks, logos, identifiable real people, unsupported locations, fake products, and misleading photographic claims.
 
-## Governance safeguards
+## Team Workflow
+
+### Project Owner
+
+- confirms the business objective
+- supplies approved project facts
+- confirms scope and deliverables
+- resolves business decisions and approvals
+
+### SEO Strategist
+
+- validates intent and page role
+- reviews keyword and architecture decisions
+- evaluates local, scaled, and cannibalization risk
+
+### Content Editor
+
+- reviews clarity, usefulness, structure, tone, and qualifiers
+- implements Module 09 recommendations
+- avoids detector-evasion tactics
+
+### Technical Reviewer
+
+- validates technical SEO findings
+- confirms implementation feasibility
+- verifies schema, crawl, metadata, and indexation recommendations
+
+### QA Reviewer
+
+- runs Module 07
+- verifies unresolved defects
+- confirms evidence states
+- controls final readiness recommendations
+
+## Governance Safeguards
 
 Do not load together:
 
@@ -322,50 +589,53 @@ Exactly one controller must be active in each run.
 
 ## Validation
 
-The release includes:
+The release may include:
 
+- `PACKAGE_VALIDATION_v7.3.1.json`
 - `RELEASE_VALIDATION_REPORT.md`
 - `CHANGELOG.md`
 - `SOURCE_MANIFEST_v7.md`
 - package-specific migration reports
 - detached `SHA256SUMS.txt`
 
-The validation confirms:
+Validation should confirm:
 
 - one controller per package
 - exact filenames and route maps
 - Full/Lite separation
 - Flat/Modular equivalence
+- Module 09 availability and automatic routing
+- correct Full and Lite Module 07 references
 - preserved governance
 - image-generation workflow order
-- active SEO/AEO/GEO/humanization controls
+- active SEO, AEO, GEO, and humanization controls
 - file-level traceability
 
-## Verify downloads
+## Verify Downloads
 
 Use the detached checksum file:
 
 `SHA256SUMS.txt`
 
-Example on macOS or Linux:
+macOS or Linux:
 
 ```bash
 sha256sum -c SHA256SUMS.txt
 ```
 
-On macOS systems without `sha256sum`:
+macOS without `sha256sum`:
 
 ```bash
 shasum -a 256 SEO_Master_System_v7.zip
 ```
 
-On Windows PowerShell:
+Windows PowerShell:
 
 ```powershell
 Get-FileHash .\SEO_Master_System_v7.zip -Algorithm SHA256
 ```
 
-## Suggested repository structure
+## Suggested Repository Structure
 
 ```text
 seo-master-system-v7/
@@ -379,37 +649,64 @@ seo-master-system-v7/
 │   ├── SEO_Master_System_Flat_v7.zip
 │   ├── SEO_Master_System_Lite_v7.zip
 │   └── SEO_Master_System_Lite_Flat_v7.zip
-└── docs/
-    ├── SOURCE_MANIFEST_v7.md
-    ├── SEO_V7_MIGRATION_REPORT_FULL.md
-    └── SEO_V7_MIGRATION_REPORT_LITE.md
+├── docs/
+│   ├── START_HERE.md
+│   ├── TEAM_MANUAL_MODULE_09.md
+│   ├── TEAM_OPERATIONS_MANUAL.md
+│   ├── SOURCE_MANIFEST_v7.md
+│   ├── SEO_V7_MIGRATION_REPORT_FULL.md
+│   └── SEO_V7_MIGRATION_REPORT_LITE.md
+└── validation/
+    └── PACKAGE_VALIDATION_v7.3.1.json
 ```
 
-## Release process
+## Release Process
 
-1. Update the package contents.
+1. Update package contents.
 2. Run package validation.
 3. Confirm controller and module metadata.
-4. Rebuild all four ZIP files.
-5. Generate detached SHA-256 hashes.
-6. Update the changelog.
-7. Publish the ZIP files and checksum file in a GitHub Release.
-8. Tag the release using a version such as:
+4. Confirm Module 09 automatic routing documentation.
+5. Rebuild all four ZIP files.
+6. Generate detached SHA-256 hashes.
+7. Update the changelog and release notes.
+8. Publish ZIP files and checksum files in a GitHub Release.
+9. Tag the release, for example:
 
 ```text
-v7.1.0
+v7.3.1
 ```
 
-## License
+## Version Control Guidance
 
-This project is licensed under the MIT License.
+Use a new minor or major release when changing:
 
-You may use, copy, modify, merge, publish, distribute, sublicense, and reuse this project, including for commercial purposes, provided that the original copyright and license notice are retained.
+- controller authority
+- module routing
+- evidence-state definitions
+- severity rules
+- QA acceptance criteria
+- required outputs
+- package structure
 
-Copyright (c) 2026 Reza DaliriRad (rdaliri)
+Use a patch release for documentation corrections that do not change system behavior.
 
-See [LICENSE](LICENSE) for the full license terms.
+Recommended branch names:
 
+```text
+feature/module-09-routing
+fix/readme-project-setup
+docs/team-operations-manual
+release/v7.3.1
+```
+
+Recommended commits:
+
+```text
+feat: add automatic Module 09 batch routing
+fix: correct Full and Lite QA module references
+docs: update GitHub project setup guide
+chore: update package validation report
+```
 
 ## Contributing
 
@@ -422,6 +719,7 @@ Contributions should preserve:
 - Full/Lite separation
 - Flat/Modular equivalence
 - Module 08 image handoff
+- Module 09 automatic routing
 - task-only module boundaries
 
 Changes to governance should include:
@@ -430,9 +728,19 @@ Changes to governance should include:
 - affected files
 - migration notes
 - validation updates
-- new detached checksums
+- updated detached checksums
 
-## Security and responsible use
+Before submitting a pull request:
+
+- confirm controller and module references
+- verify Flat and Modular variants remain aligned
+- verify Full and Lite routes use the correct filenames
+- update release notes and changelog
+- run package validation
+- confirm no obsolete module names remain
+- confirm documentation matches actual system behavior
+
+## Security and Responsible Use
 
 This system does not replace professional legal, medical, financial, accessibility, privacy, or regulatory review.
 
@@ -441,23 +749,38 @@ Do not use it to:
 - fabricate evidence
 - invent experts or credentials
 - create fake first-party proof
-- misrepresent AI-search testing
+- misrepresent detector or AI-search testing
 - publish unsupported technical findings
+- weaken necessary medical, legal, financial, or technical qualifiers
 - produce misleading local pages or doorway content
 
-## Release notes
+## License
 
-### v7.1
+This project is licensed under the MIT License.
 
-- Added deterministic AEO answer-first controls
-- Added measurable humanization rules
-- Added GEO freshness, attribution, first-party proof, and citation-readiness actions
-- Added explicit QA acceptance checks
-- Corrected task-module metadata
-- Standardized release metadata and package documentation
-- Preserved controller and governance behavior
+You may use, copy, modify, merge, publish, distribute, sublicense, and reuse this project, including for commercial purposes, provided that the original copyright and license notice are retained.
+
+Copyright (c) 2026 Reza DaliriRad (rdaliri)
+
+See [LICENSE](LICENSE) for the full license terms.
+
+## Release Notes
+
+### v7.3.1
+
+- Added automatic Module 09 routing to project documentation
+- Added direct Mode A single-asset editorial auditing
+- Added direct Mode B cross-document batch-similarity auditing
+- Made external detector results optional and secondary
+- Added Mode C detector-result governance
+- Preserved authorship as `NOT TESTED`
+- Prohibited detector-evasion editing
+- Added Full and Lite route corrections
+- Added team operations and project setup guidance
+- Preserved controller authority, evidence discipline, QA, and stop conditions
 
 ---
 
-**Recommended default:** Lite Flat v7.1 for daily ChatGPT work.  
-**Recommended advanced edition:** Full Modular v7.1 for repositories and automation.
+**Recommended routine edition:** Lite Flat for daily ChatGPT work.  
+**Recommended advanced ChatGPT edition:** Full Flat for complex, batch, regulated, or client-facing work.  
+**Recommended automation edition:** Full Modular for repositories, agents, APIs, IDEs, and automated pipelines.

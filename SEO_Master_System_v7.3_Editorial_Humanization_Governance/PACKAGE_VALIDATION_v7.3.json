@@ -1,0 +1,32 @@
+{
+  "version": "7.3",
+  "module_files": [
+    {
+      "path": "SEO_Master_System_v7/modules/09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md",
+      "sha256": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+      "bytes": 19752
+    },
+    {
+      "path": "SEO_Master_System_Flat_v7/MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md",
+      "sha256": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+      "bytes": 19752
+    },
+    {
+      "path": "SEO_Master_System_Lite_v7/modules/09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md",
+      "sha256": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+      "bytes": 19752
+    },
+    {
+      "path": "SEO_Master_System_Lite_Flat_v7/MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md",
+      "sha256": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+      "bytes": 19752
+    }
+  ],
+  "identical_module_hashes": true,
+  "manual_files_present": true,
+  "direct_audit_mode_present": true,
+  "detector_optional_rule_present": true,
+  "controller_routes_updated": true,
+  "errors": [],
+  "legacy_mode_references": []
+}
