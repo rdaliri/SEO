@@ -1,0 +1,140 @@
+<!--
+File: MODULE_02_CONTENT_PRODUCTION.md
+Version: 7.4.1-search-policy-ranking-risk-governance
+Classification: active task module
+Authority: task execution under the controller
+Required or optional: required when routed
+Controller dependency: SEO_MASTER_CONTROLLER_LITE_v7.md
+May override controller: No
+Source provenance: v7 content-production module with active AEO and humanization controls
+-->
+
+# Module 02: Content Production
+
+## Objective
+Create or improve content that satisfies dominant intent, adds defensible value, supports conversion, and remains factually controlled.
+
+## Rules
+1. Select structure from page type, user journey, and available evidence.
+2. Answer the primary task directly; organize detail in a logical decision sequence.
+3. Use natural terminology without density, repetition, or word-count formulas.
+4. Add factual claims only when supported; use visible proof placeholders where required.
+5. Never fabricate experience, expertise, testimonials, statistics, awards, credentials, prices, guarantees, or results.
+6. Write metadata for clarity and differentiation; length is display guidance, not a pass/fail formula.
+7. Recommend internal links by user progression and page roles.
+8. Recommend schema only when supported by visible content and verified entity facts.
+9. For refreshes, preserve valid equity and approved facts; document material changes.
+
+## Deliverable
+Requested brief or draft; title/meta/slug/H1-H2 structure; claim/proof notes; internal links; schema status; duplication/cannibalization check.
+
+## v7 Specialist Guidance
+- Choose structure from intent and page type rather than a universal template.
+- For source-ready content, lead with a concise direct answer when useful, then cover definitions, process, decision criteria, proof, limitations, objections, and next action.
+- Use tables, lists, FAQs, or comparisons only when they improve comprehension or extraction.
+- Preserve human usefulness, original evidence, and brand-specific differentiation.
+- Optional structures live in `REFERENCE_CONTENT_STRUCTURE_PLAYBOOK_v7.md`; they are guidance, not controller rules.
+
+## Humanization and Editorial Quality
+
+Apply these checks to every publishable content output.
+
+### Anti-AI phrasing controls
+Fail the draft when it relies on generic or machine-like language such as:
+- broad openings that restate the topic without adding value,
+- filler transitions such as “furthermore,” “moreover,” “in today’s world,” or equivalent padding,
+- repetitive summary sentences at the end of sections,
+- templated closings that merely repeat earlier points,
+- inflated claims, generic superlatives, or unsupported certainty,
+- repeated sentence stems, repeated three-part lists, or excessive parallel construction.
+
+Rewrite these passages using specific, audience-relevant language.
+
+### Rhythm and variation
+- Mix short, medium, and long sentences where natural.
+- Avoid three or more consecutive sentences with the same structure or similar length.
+- Vary paragraph length according to the idea being explained.
+- Avoid long runs of one-sentence paragraphs unless the format requires them.
+- Use lists only when they improve scanning or comparison; do not convert ordinary prose into lists by default.
+
+### Tone controls
+Match tone to:
+- audience knowledge level,
+- page type,
+- search intent,
+- funnel stage,
+- brand voice supplied in project context.
+
+Commercial pages should be clear, concrete, and trust-oriented. Editorial pages may be more atmospheric or narrative. Technical pages should remain precise without becoming sterile or mechanical.
+
+### Concrete examples
+Replace abstract claims with supplied or verified examples when evidence permits. When no real example is available:
+- do not invent one,
+- use a clearly labeled hypothetical example only when it improves understanding,
+- or record the missing proof in the control log.
+
+### Readability acceptance criteria
+The draft passes readability review only when:
+- the main point of each section is identifiable on first read,
+- unnecessary jargon is removed or explained,
+- sentences are not overloaded with multiple ideas,
+- paragraphs remain focused on one main purpose,
+- headings accurately preview the content below them,
+- transitions are natural and not repetitive,
+- the reading level suits the intended audience rather than a fixed formula.
+
+### Final human-editing pass
+Before QA, perform one editorial pass for:
+- repetitive syntax,
+- uniform sentence cadence,
+- excessive parallelism,
+- overuse of lists,
+- vague claims,
+- generic introductions,
+- repetitive conclusions,
+- tone mismatch,
+- missing concrete examples,
+- wording that sounds templated rather than written for the specific audience.
+
+Humanization verdict:
+- `PASS`: no material humanization defect remains.
+- `FAIL`: one or more material issues remain and require revision before approval.
+
+## Deterministic Answer-First Rules
+
+For answer-seeking informational, definitional, comparison, eligibility, cost, process, troubleshooting, or factual queries:
+
+1. Open with a direct answer before extended context.
+2. Make the first answer block self-contained enough to satisfy the core query without requiring the reader to scan the full page.
+3. Keep a short direct answer concise, normally one to three sentences when the query itself is short and direct.
+4. Align the answer precisely with the wording and scope of the query.
+5. Follow the direct answer with evidence, explanation, limitations, examples, or next steps as needed.
+6. Do not bury the answer under scene-setting, brand history, or generic introductions.
+7. If a direct answer is not appropriate because the query is exploratory, narrative, highly conditional, legally or medically sensitive, or dependent on missing facts, state that limitation immediately and use the safest concise framing available.
+
+### Answer-quality checks
+Fail the answer-first block when:
+- it answers a broader or narrower question than the user asked,
+- the direct answer depends on unstated assumptions,
+- the answer is not self-contained,
+- the response delays the answer without a valid reason,
+- the first block contains unsupported claims,
+- the concise answer contradicts later detail.
+
+
+## v7.4 Search Policy and Ranking-Risk Controls
+
+Before publication, content production must satisfy Module 10 for all applicable risks. In particular:
+
+- create for a real audience and task, not primarily to capture search traffic;
+- require page-specific original value beyond generic summaries;
+- prohibit scraping, low-value translation, feed republishing, and synonym-only rewriting;
+- prohibit keyword, city, entity, or phone-number stuffing;
+- require genuine independent value for affiliate and review content;
+- require accurate Who, How, and Why signals where users reasonably expect them;
+- prohibit fabricated authorship, testing, experience, reviews, ratings, proof, or outcomes;
+- preserve YMYL qualifiers and require qualified review where needed;
+- do not change dates without substantive updates;
+- do not produce content for reputation-rental or policy-circumvention schemes.
+
+Run `MODULE_10_SEARCH_POLICY_AND_RANKING_RISK_GOVERNANCE.md` before final Module 07 QA whenever the output is intended for publication or indexation.

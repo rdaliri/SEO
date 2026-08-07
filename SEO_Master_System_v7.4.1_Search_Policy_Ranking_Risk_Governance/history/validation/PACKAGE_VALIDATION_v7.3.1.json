@@ -1,0 +1,427 @@
+{
+  "release": "7.3.1-documentation-fix",
+  "date": "2026-08-05",
+  "status": "PASS",
+  "summary": {
+    "variants_checked": 4,
+    "checks_run": 77,
+    "errors": 0
+  },
+  "errors": [],
+  "checks": [
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README",
+      "passed": true,
+      "path": "SEO_Master_System_v7/README.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE",
+      "passed": true,
+      "path": "SEO_Master_System_v7/START_HERE.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "Module09",
+      "passed": true,
+      "path": "SEO_Master_System_v7/modules/09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "QA",
+      "passed": true,
+      "path": "SEO_Master_System_v7/modules/07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "README.md references correct QA module",
+      "passed": true,
+      "expected": "modules/07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE.md references correct QA module",
+      "passed": true,
+      "expected": "modules/07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE example: Single-asset humanization audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE example: Related content-batch audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_v7",
+      "check": "START_HERE example: Supplied detector-result review",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README",
+      "passed": true,
+      "path": "SEO_Master_System_Flat_v7/README.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE",
+      "passed": true,
+      "path": "SEO_Master_System_Flat_v7/START_HERE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "Module09",
+      "passed": true,
+      "path": "SEO_Master_System_Flat_v7/MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "QA",
+      "passed": true,
+      "path": "SEO_Master_System_Flat_v7/MODULE_07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "README.md references correct QA module",
+      "passed": true,
+      "expected": "MODULE_07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE.md references correct QA module",
+      "passed": true,
+      "expected": "MODULE_07_QA_AND_RECOVERY.md"
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE example: Single-asset humanization audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE example: Related content-batch audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Flat_v7",
+      "check": "START_HERE example: Supplied detector-result review",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_v7/README.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_v7/START_HERE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "Module09",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_v7/modules/09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "QA",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_v7/modules/07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "README.md references correct QA module",
+      "passed": true,
+      "expected": "modules/07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE.md references correct QA module",
+      "passed": true,
+      "expected": "modules/07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE example: Single-asset humanization audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE example: Related content-batch audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_v7",
+      "check": "START_HERE example: Supplied detector-result review",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_Flat_v7/README.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_Flat_v7/START_HERE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "Module09",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_Flat_v7/MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "QA",
+      "passed": true,
+      "path": "SEO_Master_System_Lite_Flat_v7/MODULE_07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "README.md references correct QA module",
+      "passed": true,
+      "expected": "MODULE_07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md contains Module 09",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md contains Mode A",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md contains Mode B",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md contains Mode C",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md requires direct self-audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE.md references correct QA module",
+      "passed": true,
+      "expected": "MODULE_07_QA_VERDICT.md"
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE example: Single-asset humanization audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE example: Related content-batch audit",
+      "passed": true
+    },
+    {
+      "variant": "SEO_Master_System_Lite_Flat_v7",
+      "check": "START_HERE example: Supplied detector-result review",
+      "passed": true
+    },
+    {
+      "check": "Module 09 SHA-256 parity across all variants",
+      "passed": true,
+      "hashes": {
+        "SEO_Master_System_v7": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+        "SEO_Master_System_Flat_v7": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+        "SEO_Master_System_Lite_v7": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f",
+        "SEO_Master_System_Lite_Flat_v7": "71d5fe0154b0f029a73fd4043dcac976f3db975e813abf313a7818c21755e27f"
+      }
+    }
+  ]
+}

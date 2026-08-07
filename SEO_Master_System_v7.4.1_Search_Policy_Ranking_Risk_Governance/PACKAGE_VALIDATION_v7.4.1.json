@@ -1,0 +1,1011 @@
+{
+  "release": "7.4.1",
+  "generated": "2026-08-07",
+  "validation_passes": [
+    "structural",
+    "semantic-routing",
+    "parity-release-hygiene"
+  ],
+  "summary": {
+    "checks": 198,
+    "passed": 198,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "check": "SEO_Master_System_Flat_v7:dir",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:context",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:one_controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_01",
+      "status": "PASS",
+      "detail": "MODULE_01_INTENT_ARCHITECTURE.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_02",
+      "status": "PASS",
+      "detail": "MODULE_02_CONTENT_PRODUCTION.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_03",
+      "status": "PASS",
+      "detail": "MODULE_03_TECHNICAL_SEO.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_04",
+      "status": "PASS",
+      "detail": "MODULE_04_LOCAL_AND_SCALED_CONTENT.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_05",
+      "status": "PASS",
+      "detail": "MODULE_05_CONTENT_LIFECYCLE.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_06",
+      "status": "PASS",
+      "detail": "MODULE_06_AI_SEARCH_VISIBILITY.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_07",
+      "status": "PASS",
+      "detail": "MODULE_07_QA_AND_RECOVERY.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_08",
+      "status": "PASS",
+      "detail": "MODULE_08_IMAGE_GENERATION.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_09",
+      "status": "PASS",
+      "detail": "MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:module_10",
+      "status": "PASS",
+      "detail": "MODULE_10_SEARCH_POLICY_AND_RANKING_RISK_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:README.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:START_HERE.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:SOURCE_MANIFEST_v7.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:TEAM_MANUAL_MODULE_09.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:RELEASE_VALIDATION_REPORT.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:flat_map",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:SEO_MASTER_CONTROLLER_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:README.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:START_HERE.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:SOURCE_MANIFEST_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:TEAM_MANUAL_MODULE_09.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:RELEASE_VALIDATION_REPORT.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:readme_module10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:start_auto10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:start_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:ctrl_09",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:ctrl_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:manifest_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:team_handoff",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m09_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m09_to_m10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m10_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m10_spam",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m10_drop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m02_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m03_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m04_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m05_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m06_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Flat_v7:m07_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:dir",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:context",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:one_controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:module_01",
+      "status": "PASS",
+      "detail": "01_INTENT_ARCHITECTURE.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_02",
+      "status": "PASS",
+      "detail": "02_CONTENT_PRODUCTION.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_03",
+      "status": "PASS",
+      "detail": "03_TECHNICAL_SEO.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_04",
+      "status": "PASS",
+      "detail": "04_LOCAL_AND_SCALED_CONTENT.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_05",
+      "status": "PASS",
+      "detail": "05_CONTENT_LIFECYCLE.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_06",
+      "status": "PASS",
+      "detail": "06_AI_SEARCH_VISIBILITY.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_07",
+      "status": "PASS",
+      "detail": "07_QA_AND_RECOVERY.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_08",
+      "status": "PASS",
+      "detail": "08_IMAGE_GENERATION.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_09",
+      "status": "PASS",
+      "detail": "09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:module_10",
+      "status": "PASS",
+      "detail": "10_SEARCH_POLICY_AND_RANKING_RISK_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_v7:README.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:START_HERE.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:SOURCE_MANIFEST_v7.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:TEAM_MANUAL_MODULE_09.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:RELEASE_VALIDATION_REPORT.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:SEO_MASTER_CONTROLLER_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:README.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:START_HERE.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:SOURCE_MANIFEST_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:TEAM_MANUAL_MODULE_09.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:RELEASE_VALIDATION_REPORT.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:readme_module10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:start_auto10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:start_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:ctrl_09",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:ctrl_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:manifest_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:team_handoff",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m09_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m09_to_m10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m10_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m10_spam",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m10_drop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m02_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m03_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m04_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m05_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m06_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_v7:m07_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:dir",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:context",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:one_controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_01",
+      "status": "PASS",
+      "detail": "MODULE_01_INTENT_ARCHITECTURE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_02",
+      "status": "PASS",
+      "detail": "MODULE_02_CONTENT_PRODUCTION.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_03",
+      "status": "PASS",
+      "detail": "MODULE_03_TECHNICAL_SEO.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_04",
+      "status": "PASS",
+      "detail": "MODULE_04_LOCAL_AND_SCALED_CONTENT.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_05",
+      "status": "PASS",
+      "detail": "MODULE_05_CONTENT_LIFECYCLE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_06",
+      "status": "PASS",
+      "detail": "MODULE_06_AI_SEARCH_VISIBILITY.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_07",
+      "status": "PASS",
+      "detail": "MODULE_07_QA_VERDICT.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_08",
+      "status": "PASS",
+      "detail": "MODULE_08_IMAGE_GENERATION.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_09",
+      "status": "PASS",
+      "detail": "MODULE_09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:module_10",
+      "status": "PASS",
+      "detail": "MODULE_10_SEARCH_POLICY_AND_RANKING_RISK_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:README.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:START_HERE.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:SOURCE_MANIFEST_v7.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:TEAM_MANUAL_MODULE_09.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:RELEASE_VALIDATION_REPORT.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:flat_map",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:SEO_MASTER_CONTROLLER_LITE_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:README.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:START_HERE.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:SOURCE_MANIFEST_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:TEAM_MANUAL_MODULE_09.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:RELEASE_VALIDATION_REPORT.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:readme_module10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:start_auto10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:start_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:ctrl_09",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:ctrl_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:manifest_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:team_handoff",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m09_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m09_to_m10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m10_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m10_spam",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m10_drop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m02_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m03_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m04_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m05_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m06_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_Flat_v7:m07_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:dir",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:context",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:one_controller",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_01",
+      "status": "PASS",
+      "detail": "01_INTENT_ARCHITECTURE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_02",
+      "status": "PASS",
+      "detail": "02_CONTENT_PRODUCTION.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_03",
+      "status": "PASS",
+      "detail": "03_TECHNICAL_SEO.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_04",
+      "status": "PASS",
+      "detail": "04_LOCAL_AND_SCALED_CONTENT.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_05",
+      "status": "PASS",
+      "detail": "05_CONTENT_LIFECYCLE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_06",
+      "status": "PASS",
+      "detail": "06_AI_SEARCH_VISIBILITY.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_07",
+      "status": "PASS",
+      "detail": "07_QA_VERDICT.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_08",
+      "status": "PASS",
+      "detail": "08_IMAGE_GENERATION.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_09",
+      "status": "PASS",
+      "detail": "09_BATCH_HUMANIZATION_AND_DETECTOR_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:module_10",
+      "status": "PASS",
+      "detail": "10_SEARCH_POLICY_AND_RANKING_RISK_GOVERNANCE.md"
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:README.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:START_HERE.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:SOURCE_MANIFEST_v7.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:TEAM_MANUAL_MODULE_09.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:RELEASE_VALIDATION_REPORT.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:SEO_MASTER_CONTROLLER_LITE_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:README.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:START_HERE.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:SOURCE_MANIFEST_v7.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:TEAM_MANUAL_MODULE_09.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:RELEASE_VALIDATION_REPORT.md:version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:readme_module10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:start_auto10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:start_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:ctrl_09",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:ctrl_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:manifest_10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:team_handoff",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m09_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m09_to_m10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m10_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m10_spam",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m10_drop",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m02_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m03_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m04_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m05_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m06_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "SEO_Master_System_Lite_v7:m07_aware10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "parity_module_09",
+      "status": "PASS",
+      "detail": "78245a2b2ee324902d6c825bb20b5c25e23061809f89ed9234da4df226e29d23|78245a2b2ee324902d6c825bb20b5c25e23061809f89ed9234da4df226e29d23|78245a2b2ee324902d6c825bb20b5c25e23061809f89ed9234da4df226e29d23|78245a2b2ee324902d6c825bb20b5c25e23061809f89ed9234da4df226e29d23"
+    },
+    {
+      "check": "parity_module_10",
+      "status": "PASS",
+      "detail": "401f09edfda6ab5e798cd6343454faa33c6bae4b9011c343469d8cf74779afbc|401f09edfda6ab5e798cd6343454faa33c6bae4b9011c343469d8cf74779afbc|401f09edfda6ab5e798cd6343454faa33c6bae4b9011c343469d8cf74779afbc|401f09edfda6ab5e798cd6343454faa33c6bae4b9011c343469d8cf74779afbc"
+    },
+    {
+      "check": "root:README.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:README_PACKAGE_CHOOSER.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:CHANGELOG.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:OFFICIAL_POLICY_SOURCE_REGISTER_v7.4.1.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:PROJECT_INSTRUCTION_FULL_FLAT_v7.4.1.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:RELEASE_NOTES_v7.4.1.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:RELEASE_VALIDATION_REPORT.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:RELEASE_VALIDATION_REPORT_v7.4.1.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:SOURCE_MANIFEST_v7.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:SEO_V7_MIGRATION_REPORT_FULL.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:SEO_V7_MIGRATION_REPORT_LITE.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:TEAM_OPERATIONS_MANUAL_v7.4.1.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:TEAM_MANUAL_MODULE_09.md",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:readme_current",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:project_instruction_lt8000",
+      "status": "PASS",
+      "detail": "4201"
+    },
+    {
+      "check": "root:pi_auto09",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:pi_auto10",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:no_stale_version_metadata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root:legacy_moved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root: TEAM_OPERATIONS_MANUAL_v7.4.1.docx present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "root: TEAM_OPERATIONS_MANUAL_v7.4.1.pdf present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "team manual: visual render QA completed",
+      "status": "PASS",
+      "detail": "6 rendered pages inspected; no clipping/overlap detected"
+    }
+  ],
+  "manual_visual_qa": {
+    "pages": 6,
+    "status": "PASS",
+    "method": "DOCX render to PNG and visual inspection"
+  }
+}
